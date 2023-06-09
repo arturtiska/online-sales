@@ -13,6 +13,6 @@ export const ContainerInput = styled.TextInput<ContainerInputProps>`
     border-width: 1px;
     border-color:${(props) => props.isError ? theme.colors.orangeTheme.orange80 : theme.colors.grayTheme.gray80};
     color: ${theme.colors.neutralTheme.black};
-    border-radius: 4px;
+    border-radius: 4px; 
     `;
 
