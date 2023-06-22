@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "compilerOptions": {
     "module": "commonjs",
     "declaration": true,
@@ -19,3 +20,12 @@
     "noFallthroughCasesInSwitch": false
   }
 }
+=======
+  "extends": "@tsconfig/react-native/tsconfig.json",
+  "compilerOptions": {
+    "types": [
+      "@types/styled-components-react-native"
+    ]
+  }
+}
+>>>>>>> eb706e427324ed7315b973b6fc9e890b323bcbf2
